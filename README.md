@@ -79,6 +79,9 @@ Proyek ini adalah aplikasi web yang memungkinkan pengguna untuk memeriksa apakah
 1. **Halaman Utama** (`/`):
 - **Method**: `GET` / `POST`
 - **Fungsi**: Memasukkan password untuk pengecekan dan menampilkan hasil.
+2. **API Check Password** (`/check_password`):
+- **Method**: `POST`
+- **Fungsi**: Menggunakan API untuk mengecek password secara langsung melalui request POST.
 2. **API Riwayat Pengecekan** (`/history`):
 - **Method**: `GET`
 - **Fungsi**: Mengembalikan riwayat pengecekan password dalam format JSON.
@@ -106,3 +109,4 @@ Proyek ini dilisensikan di bawah **GNU General Public License v3.0**. Anda dapat
 ### **Kontak**
 Jika ada pertanyaan atau butuh bantuan, silakan kunjungi profil saya:
 [**Muhammad Andyk Maulana**](https://muhammadandykmaulana.github.io)
+	
